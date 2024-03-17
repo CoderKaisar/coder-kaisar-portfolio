@@ -1,6 +1,4 @@
 #porfolio:hover>div {
     display: block;
     transition: margin-right 4s ease-in-out 1s;
-
-
 }
