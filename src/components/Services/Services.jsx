@@ -32,7 +32,7 @@ const Services = () => {
         <div className='py-20 w-full'>
             <h2 className='text-center text-xl md:text-4xl  lg:text-6xl uppercase text-white py-10 mb-6 font-semibold'>My Quality Services</h2>
             <div className='mx-4 md:mx-16 lg:mx-20'>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+                <div className='flex flex-col md:flex-row lg:flex-row flex-wrap justify-center items-center gap-6'>
                     {
                         services.map(service => <Service service={service} />)
                     }
