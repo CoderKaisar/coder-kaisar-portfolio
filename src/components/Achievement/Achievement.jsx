@@ -23,8 +23,8 @@ const Achievement = () => {
 
     ]
     return (
-        <div className='mx-auto py-10'>
-            <div className='grid grid-cols-4 content-center items-center text-white'>
+        <div className='mx-auto py-10 flex justify-center items-center'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 content-center items-center text-white'>
                 {
                     achievements.map(achievement => <div className='flex flex-col justify-center items-center gap-6'>
 
