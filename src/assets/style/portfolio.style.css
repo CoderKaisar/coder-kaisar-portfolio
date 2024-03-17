@@ -2,3 +2,9 @@
     display: block;
     transition: margin-right 4s ease-in-out 1s;
 }
+
+.bgPink {
+    background-color: #D3BFFC;
+    transition: all 0.2s ease-in;
+
+}
