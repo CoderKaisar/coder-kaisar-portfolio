@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import dashboard from "../../assets/images/portfolios/holy-grail-dashboard.png"
+import carService from "../../assets/images/portfolios/car-service.png"
+import dentalService from "../../assets/images/portfolios/dental-service.png"
+import schoolManagement from "../../assets/images/portfolios/school-management.png"
 import Portfolio from './Portfolio';
 const Portfolios = () => {
     const portfolios = [
@@ -11,19 +14,19 @@ const Portfolios = () => {
             tools: ["React JS", "React Router Dom", "Tailwind CSS", "Daisy UI", "React Icons", "Chart JS"]
         },
         {
-            image: dashboard,
+            image: carService,
             category: "Web Design",
             title: "Dashboard Design",
             tools: ["React JS", "React Router Dom", "Tailwind CSS", "Daisy UI", "React Icons", "Chart JS"]
         },
         {
-            image: dashboard,
+            image: dentalService,
             category: "Web Design",
             title: "Dashboard Design",
             tools: ["React JS", "React Router Dom", "Tailwind CSS", "Daisy UI", "React Icons", "Chart JS"]
         },
         {
-            image: dashboard,
+            image: schoolManagement,
             category: "Web Design",
             title: "Dashboard Design",
             tools: ["React JS", "React Router Dom", "Tailwind CSS", "Daisy UI", "React Icons", "Chart JS"]
