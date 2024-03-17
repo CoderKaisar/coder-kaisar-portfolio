@@ -5,6 +5,7 @@ import Achievement from '../../components/Achievement/Achievement';
 import Services from '../../components/Services/Services';
 import Skills from '../../components/Skills/Skills';
 import Portfolios from '../../components/Portfolios/Portfolios';
+import Contact from '../../components/Contact/Contact';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Services />
             <Skills />
             <Portfolios />
+            <Contact />
         </div>
     );
 };

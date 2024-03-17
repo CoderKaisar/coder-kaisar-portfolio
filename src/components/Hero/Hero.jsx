@@ -12,7 +12,7 @@ const Hero = () => {
                         <p className='text-2xl md:text-4xl lg:text-7xl font-bold bg-gradient-to-r from-[#8E5AF8] to-[#D6C3FC] inline-block text-transparent bg-clip-text'>Web Developer +</p>
                         <p className='text-3xl md:text-4xl lg:text-7xl font-bold bg-gradient-to-r from-[#8E5AF8] to-[#D6C3FC] inline-block text-transparent bg-clip-text py-2'>Web Designer</p>
                     </div>
-                    <p className='text-center w-full md:w-[60%] lg:w-[60%] text-justify text-xs md:text-2xl lg:text-2xl text-white'>
+                    <p className='text-center w-full md:w-[60%] lg:w-[60%] md:text-justify text-xs md:text-2xl lg:text-2xl text-white'>
                         I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people
                     </p>
                 </div>
